@@ -8,7 +8,8 @@ from django.utils import timezone
 from django.core.exceptions import ValidationError
 from django.utils.text import slugify
 from django.db.models import Q
-
+from django.conf import settings
+from django.utils import timezone 
 # -------------------------------------------------------------------
 # 1. CUSTOM MANAGER FOR SOFT DELETE (IMPROVED)
 # -------------------------------------------------------------------

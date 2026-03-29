@@ -1,0 +1,112 @@
+INFO 2026-03-26 20:02:20,837 autoreload 26228 6488 Watching for file changes with StatReloader
+INFO 2026-03-26 20:02:35,492 autoreload 26228 6488 C:\Users\MohaMedPro\Documents\4_docker-composer\Django Project\tsting\gym_management\gym_management\settings.py changed, reloading.
+INFO 2026-03-26 20:02:36,126 autoreload 24000 19900 Watching for file changes with StatReloader
+INFO 2026-03-26 20:02:37,409 autoreload 24000 19900 C:\Users\MohaMedPro\Documents\4_docker-composer\Django Project\tsting\gym_management\gym_management\settings.py changed, reloading.
+INFO 2026-03-26 20:02:38,035 autoreload 9988 2288 Watching for file changes with StatReloader
+INFO 2026-03-26 20:03:00,873 autoreload 9988 2288 C:\Users\MohaMedPro\Documents\4_docker-composer\Django Project\tsting\gym_management\gym_management\settings.py changed, reloading.
+INFO 2026-03-26 20:03:01,507 autoreload 4444 2504 Watching for file changes with StatReloader
+INFO 2026-03-26 20:05:03,042 autoreload 4444 2504 C:\Users\MohaMedPro\Documents\4_docker-composer\Django Project\tsting\gym_management\gym_management\settings.py changed, reloading.
+INFO 2026-03-26 20:05:03,758 autoreload 27116 28716 Watching for file changes with StatReloader
+INFO 2026-03-26 20:05:30,712 autoreload 27116 28716 C:\Users\MohaMedPro\Documents\4_docker-composer\Django Project\tsting\gym_management\core\__init__.py changed, reloading.
+INFO 2026-03-26 20:05:31,369 autoreload 11796 19432 Watching for file changes with StatReloader
+INFO 2026-03-26 20:06:12,219 autoreload 19796 28980 Watching for file changes with StatReloader
+ERROR 2026-03-26 20:08:18,286 log 19796 9656 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MohaMedPro\Documents\4_docker-composer\Django Project\tsting\gym_management\core\middleware.py", line 58, in process_request
+    request._start_time = timezone.now()
+                          ^^^^^^^^
+NameError: name 'timezone' is not defined
+ERROR 2026-03-26 20:08:18,288 basehttp 19796 9656 "GET / HTTP/1.1" 500 100777
+INFO 2026-03-26 20:08:41,564 autoreload 19796 28980 C:\Users\MohaMedPro\Documents\4_docker-composer\Django Project\tsting\gym_management\core\models.py changed, reloading.
+INFO 2026-03-26 20:08:42,093 autoreload 14552 18548 Watching for file changes with StatReloader
+INFO 2026-03-26 20:08:44,278 autoreload 14552 18548 C:\Users\MohaMedPro\Documents\4_docker-composer\Django Project\tsting\gym_management\core\models.py changed, reloading.
+INFO 2026-03-26 20:08:44,735 autoreload 12076 26032 Watching for file changes with StatReloader
+INFO 2026-03-26 20:08:56,027 autoreload 12076 26032 C:\Users\MohaMedPro\Documents\4_docker-composer\Django Project\tsting\gym_management\core\models.py changed, reloading.
+INFO 2026-03-26 20:08:56,660 autoreload 25504 12460 Watching for file changes with StatReloader
+ERROR 2026-03-26 20:08:58,290 log 25504 14972 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MohaMedPro\Documents\4_docker-composer\Django Project\tsting\gym_management\core\middleware.py", line 58, in process_request
+    request._start_time = timezone.now()
+                          ^^^^^^^^
+NameError: name 'timezone' is not defined
+ERROR 2026-03-26 20:08:58,292 basehttp 25504 14972 "GET / HTTP/1.1" 500 100914
+ERROR 2026-03-26 20:08:59,074 log 25504 14972 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MohaMedPro\Documents\4_docker-composer\Django Project\tsting\gym_management\core\middleware.py", line 58, in process_request
+    request._start_time = timezone.now()
+                          ^^^^^^^^
+NameError: name 'timezone' is not defined
+ERROR 2026-03-26 20:08:59,075 basehttp 25504 14972 "GET / HTTP/1.1" 500 100914
+ERROR 2026-03-26 20:08:59,539 log 25504 14972 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MohaMedPro\Documents\4_docker-composer\Django Project\tsting\gym_management\core\middleware.py", line 58, in process_request
+    request._start_time = timezone.now()
+                          ^^^^^^^^
+NameError: name 'timezone' is not defined
+ERROR 2026-03-26 20:08:59,541 basehttp 25504 14972 "GET / HTTP/1.1" 500 100914
+ERROR 2026-03-26 20:09:00,002 log 25504 14972 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MohaMedPro\Documents\4_docker-composer\Django Project\tsting\gym_management\core\middleware.py", line 58, in process_request
+    request._start_time = timezone.now()
+                          ^^^^^^^^
+NameError: name 'timezone' is not defined
+ERROR 2026-03-26 20:09:00,004 basehttp 25504 14972 "GET / HTTP/1.1" 500 100914
+ERROR 2026-03-26 20:09:00,056 log 25504 14972 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MohaMedPro\Documents\4_docker-composer\Django Project\tsting\gym_management\core\middleware.py", line 58, in process_request
+    request._start_time = timezone.now()
+                          ^^^^^^^^
+NameError: name 'timezone' is not defined
+ERROR 2026-03-26 20:09:00,058 basehttp 25504 14972 "GET / HTTP/1.1" 500 100914
+INFO 2026-03-26 20:09:11,423 autoreload 25504 12460 C:\Users\MohaMedPro\Documents\4_docker-composer\Django Project\tsting\gym_management\core\middleware.py changed, reloading.
+INFO 2026-03-26 20:09:12,074 autoreload 27684 29128 Watching for file changes with StatReloader
+INFO 2026-03-26 20:09:12,639 basehttp 27684 9528 "GET / HTTP/1.1" 200 10664
+INFO 2026-03-26 20:09:13,474 basehttp 27684 9528 "GET / HTTP/1.1" 200 10664
+INFO 2026-03-26 20:12:58,661 autoreload 27684 29128 C:\Users\MohaMedPro\Documents\4_docker-composer\Django Project\tsting\gym_management\manage.py changed, reloading.
+INFO 2026-03-26 20:13:00,541 autoreload 30868 25924 Watching for file changes with StatReloader
+INFO 2026-03-26 20:14:08,537 autoreload 30868 25924 C:\Users\MohaMedPro\Documents\4_docker-composer\Django Project\tsting\gym_management\manage.py changed, reloading.
+INFO 2026-03-26 20:14:09,163 autoreload 10688 31576 Watching for file changes with StatReloader
+INFO 2026-03-26 20:14:13,512 autoreload 10688 31576 C:\Users\MohaMedPro\Documents\4_docker-composer\Django Project\tsting\gym_management\manage.py changed, reloading.
+INFO 2026-03-26 20:14:14,150 autoreload 20120 6672 Watching for file changes with StatReloader
+INFO 2026-03-26 20:14:15,409 autoreload 20120 6672 C:\Users\MohaMedPro\Documents\4_docker-composer\Django Project\tsting\gym_management\manage.py changed, reloading.
+INFO 2026-03-26 20:14:16,067 autoreload 22456 26680 Watching for file changes with StatReloader
+INFO 2026-03-26 20:16:13,403 autoreload 22456 26680 C:\Users\MohaMedPro\Documents\4_docker-composer\Django Project\tsting\gym_management\core\models.py changed, reloading.
+INFO 2026-03-26 20:16:13,973 autoreload 23312 22084 Watching for file changes with StatReloader
+INFO 2026-03-26 20:16:15,154 autoreload 23312 22084 C:\Users\MohaMedPro\Documents\4_docker-composer\Django Project\tsting\gym_management\core\models.py changed, reloading.
+INFO 2026-03-26 20:16:15,781 autoreload 4256 23960 Watching for file changes with StatReloader

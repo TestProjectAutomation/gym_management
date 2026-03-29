@@ -16,7 +16,6 @@ phonenumbers = "==8.13.29"
 django-filter = "==23.5"
 celery = "==5.3.4"
 redis = "==5.0.1"
-django-redis = "==5.4.0"
 qrcode = "==7.4.2"
 reportlab = "==4.0.7"
 openpyxl = "==3.1.2"
@@ -25,6 +24,8 @@ django-jazzmin = "==2.6.0"
 python-decouple = "==3.8"
 whitenoise = "==6.6.0"
 gunicorn = "==21.2.0"
+python-dotenv = "*"
+django-redis = "*"
 
 [dev-packages]
 
