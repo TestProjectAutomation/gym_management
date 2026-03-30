@@ -110,3 +110,187 @@ INFO 2026-03-26 20:16:13,403 autoreload 22456 26680 C:\Users\MohaMedPro\Document
 INFO 2026-03-26 20:16:13,973 autoreload 23312 22084 Watching for file changes with StatReloader
 INFO 2026-03-26 20:16:15,154 autoreload 23312 22084 C:\Users\MohaMedPro\Documents\4_docker-composer\Django Project\tsting\gym_management\core\models.py changed, reloading.
 INFO 2026-03-26 20:16:15,781 autoreload 4256 23960 Watching for file changes with StatReloader
+INFO 2026-03-29 13:56:01,354 autoreload 11076 23152 Watching for file changes with StatReloader
+INFO 2026-03-29 13:56:05,150 basehttp 11076 30976 "GET / HTTP/1.1" 200 10664
+WARNING 2026-03-29 13:56:05,534 log 11076 30976 Not Found: /favicon.ico
+WARNING 2026-03-29 13:56:05,535 basehttp 11076 30976 "GET /favicon.ico HTTP/1.1" 404 2117
+INFO 2026-03-29 13:56:06,174 basehttp 11076 30976 "GET / HTTP/1.1" 200 10664
+INFO 2026-03-29 14:05:46,965 autoreload 11076 23152 C:\Users\MohaMedPro\Documents\4_docker-composer\Django Project\tsting\gym_management\gym_management\urls.py changed, reloading.
+INFO 2026-03-29 14:05:47,583 autoreload 5180 5396 Watching for file changes with StatReloader
+ERROR 2026-03-29 14:07:27,952 exceptions 5180 28112 Exception: Authentication credentials were not provided.
+Traceback (most recent call last):
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\rest_framework\views.py", line 415, in initial
+    self.check_permissions(request)
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\rest_framework\views.py", line 333, in check_permissions
+    self.permission_denied(
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\rest_framework\views.py", line 174, in permission_denied
+    raise exceptions.NotAuthenticated()
+rest_framework.exceptions.NotAuthenticated: Authentication credentials were not provided.
+WARNING 2026-03-29 14:07:28,033 log 5180 28112 Unauthorized: /api/v1/
+WARNING 2026-03-29 14:07:28,034 basehttp 5180 28112 "GET /api/v1/ HTTP/1.1" 401 5057
+INFO 2026-03-29 14:07:28,488 basehttp 5180 27488 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2026-03-29 14:07:28,507 basehttp 5180 27488 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2026-03-29 14:07:28,513 basehttp 5180 32444 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2026-03-29 14:07:28,517 basehttp 5180 32020 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2026-03-29 14:07:28,520 basehttp 5180 15024 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2026-03-29 14:07:28,521 basehttp 5180 4864 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2026-03-29 14:07:28,527 basehttp 5180 28112 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2026-03-29 14:07:28,531 basehttp 5180 32444 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2026-03-29 14:07:28,538 basehttp 5180 15024 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2026-03-29 14:07:28,541 basehttp 5180 28112 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2026-03-29 14:07:28,545 basehttp 5180 32020 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2026-03-29 14:07:28,552 basehttp 5180 27488 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2026-03-29 14:07:28,568 basehttp 5180 32444 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2026-03-29 14:07:28,568 basehttp 5180 23172 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2026-03-29 14:07:28,569 basehttp 5180 31416 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2026-03-29 14:07:28,594 basehttp 5180 14232 "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO 2026-03-29 14:07:28,695 basehttp 5180 31416 "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+ERROR 2026-03-29 14:07:51,086 exceptions 5180 14232 Exception: Authentication credentials were not provided.
+Traceback (most recent call last):
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\rest_framework\views.py", line 415, in initial
+    self.check_permissions(request)
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\rest_framework\views.py", line 333, in check_permissions
+    self.permission_denied(
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\rest_framework\views.py", line 174, in permission_denied
+    raise exceptions.NotAuthenticated()
+rest_framework.exceptions.NotAuthenticated: Authentication credentials were not provided.
+WARNING 2026-03-29 14:07:51,088 log 5180 14232 Unauthorized: /api/v1/
+WARNING 2026-03-29 14:07:51,089 basehttp 5180 14232 "GET /api/v1/ HTTP/1.1" 401 5057
+ERROR 2026-03-29 14:08:04,081 exceptions 5180 24248 Exception: Authentication credentials were not provided.
+Traceback (most recent call last):
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\rest_framework\views.py", line 415, in initial
+    self.check_permissions(request)
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\rest_framework\views.py", line 333, in check_permissions
+    self.permission_denied(
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\rest_framework\views.py", line 174, in permission_denied
+    raise exceptions.NotAuthenticated()
+rest_framework.exceptions.NotAuthenticated: Authentication credentials were not provided.
+WARNING 2026-03-29 14:08:04,082 log 5180 24248 Unauthorized: /api/v1/
+WARNING 2026-03-29 14:08:04,083 basehttp 5180 24248 "GET /api/v1/ HTTP/1.1" 401 58
+ERROR 2026-03-29 14:08:44,494 exceptions 5180 14232 Exception: Authentication credentials were not provided.
+Traceback (most recent call last):
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\rest_framework\views.py", line 415, in initial
+    self.check_permissions(request)
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\rest_framework\views.py", line 333, in check_permissions
+    self.permission_denied(
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\rest_framework\views.py", line 174, in permission_denied
+    raise exceptions.NotAuthenticated()
+rest_framework.exceptions.NotAuthenticated: Authentication credentials were not provided.
+WARNING 2026-03-29 14:08:44,497 log 5180 14232 Unauthorized: /api/v1/
+WARNING 2026-03-29 14:08:44,498 basehttp 5180 14232 "GET /api/v1/?format=api HTTP/1.1" 401 5090
+ERROR 2026-03-29 14:08:47,463 exceptions 5180 14232 Exception: Authentication credentials were not provided.
+Traceback (most recent call last):
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\rest_framework\views.py", line 415, in initial
+    self.check_permissions(request)
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\rest_framework\views.py", line 333, in check_permissions
+    self.permission_denied(
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\rest_framework\views.py", line 174, in permission_denied
+    raise exceptions.NotAuthenticated()
+rest_framework.exceptions.NotAuthenticated: Authentication credentials were not provided.
+WARNING 2026-03-29 14:08:47,464 log 5180 14232 Unauthorized: /api/v1/
+WARNING 2026-03-29 14:08:47,464 basehttp 5180 14232 "GET /api/v1/?format=json HTTP/1.1" 401 58
+ERROR 2026-03-29 14:08:48,702 exceptions 5180 14232 Exception: Authentication credentials were not provided.
+Traceback (most recent call last):
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\rest_framework\views.py", line 415, in initial
+    self.check_permissions(request)
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\rest_framework\views.py", line 333, in check_permissions
+    self.permission_denied(
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\rest_framework\views.py", line 174, in permission_denied
+    raise exceptions.NotAuthenticated()
+rest_framework.exceptions.NotAuthenticated: Authentication credentials were not provided.
+WARNING 2026-03-29 14:08:48,705 log 5180 14232 Unauthorized: /api/v1/
+WARNING 2026-03-29 14:08:48,706 basehttp 5180 14232 "GET /api/v1/?format=api HTTP/1.1" 401 5090
+ERROR 2026-03-29 14:08:49,716 exceptions 5180 14232 Exception: Authentication credentials were not provided.
+Traceback (most recent call last):
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\rest_framework\views.py", line 415, in initial
+    self.check_permissions(request)
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\rest_framework\views.py", line 333, in check_permissions
+    self.permission_denied(
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\rest_framework\views.py", line 174, in permission_denied
+    raise exceptions.NotAuthenticated()
+rest_framework.exceptions.NotAuthenticated: Authentication credentials were not provided.
+WARNING 2026-03-29 14:08:49,719 log 5180 14232 Unauthorized: /api/v1/
+WARNING 2026-03-29 14:08:49,720 basehttp 5180 14232 "GET /api/v1/?format=api HTTP/1.1" 401 5090
+ERROR 2026-03-29 14:09:30,960 middleware 5180 14232 Unhandled exception: “C:\Users\MohaMedPro\Documents\4_docker-composer\Django Project\tsting\gym_management\api\v1\auth\register” does not exist
+Traceback (most recent call last):
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\django\views\static.py", line 40, in serve
+    raise Http404(_("“%(path)s” does not exist") % {"path": fullpath})
+django.http.response.Http404: “C:\Users\MohaMedPro\Documents\4_docker-composer\Django Project\tsting\gym_management\api\v1\auth\register” does not exist
+ERROR 2026-03-29 14:09:31,026 log 5180 14232 Internal Server Error: /api/v1/auth/register
+Traceback (most recent call last):
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\django\views\static.py", line 40, in serve
+    raise Http404(_("“%(path)s” does not exist") % {"path": fullpath})
+django.http.response.Http404: “C:\Users\MohaMedPro\Documents\4_docker-composer\Django Project\tsting\gym_management\api\v1\auth\register” does not exist
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\django\core\handlers\base.py", line 199, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\django\core\handlers\base.py", line 362, in process_exception_by_middleware
+    response = middleware_method(request, exception)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MohaMedPro\Documents\4_docker-composer\Django Project\tsting\gym_management\core\middleware.py", line 123, in process_exception
+    'detail': str(exception) if settings.DEBUG else 'An error occurred'
+                                ^^^^^^^^
+NameError: name 'settings' is not defined
+ERROR 2026-03-29 14:09:31,028 basehttp 5180 14232 "GET //api/v1/auth/register HTTP/1.1" 500 94214
+INFO 2026-03-29 14:09:58,530 autoreload 5180 5396 C:\Users\MohaMedPro\Documents\4_docker-composer\Django Project\tsting\gym_management\core\middleware.py changed, reloading.
+INFO 2026-03-29 14:09:59,172 autoreload 25924 32720 Watching for file changes with StatReloader
+ERROR 2026-03-29 14:09:59,985 middleware 25924 22684 Unhandled exception: “C:\Users\MohaMedPro\Documents\4_docker-composer\Django Project\tsting\gym_management\api\v1\auth\register” does not exist
+Traceback (most recent call last):
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\django\views\static.py", line 40, in serve
+    raise Http404(_("“%(path)s” does not exist") % {"path": fullpath})
+django.http.response.Http404: “C:\Users\MohaMedPro\Documents\4_docker-composer\Django Project\tsting\gym_management\api\v1\auth\register” does not exist
+ERROR 2026-03-29 14:09:59,986 log 25924 22684 Internal Server Error: /api/v1/auth/register
+ERROR 2026-03-29 14:09:59,986 basehttp 25924 22684 "GET //api/v1/auth/register HTTP/1.1" 500 191
+ERROR 2026-03-29 14:10:01,954 middleware 25924 22684 Unhandled exception: “C:\Users\MohaMedPro\Documents\4_docker-composer\Django Project\tsting\gym_management\api\v1\auth\register” does not exist
+Traceback (most recent call last):
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\django\views\static.py", line 40, in serve
+    raise Http404(_("“%(path)s” does not exist") % {"path": fullpath})
+django.http.response.Http404: “C:\Users\MohaMedPro\Documents\4_docker-composer\Django Project\tsting\gym_management\api\v1\auth\register” does not exist
+ERROR 2026-03-29 14:10:01,955 log 25924 22684 Internal Server Error: /api/v1/auth/register
+ERROR 2026-03-29 14:10:01,955 basehttp 25924 22684 "GET //api/v1/auth/register HTTP/1.1" 500 191
+ERROR 2026-03-29 14:11:11,833 exceptions 25924 9408 Exception: Authentication credentials were not provided.
+Traceback (most recent call last):
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\rest_framework\views.py", line 415, in initial
+    self.check_permissions(request)
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\rest_framework\views.py", line 333, in check_permissions
+    self.permission_denied(
+  File "C:\Users\MohaMedPro\.virtualenvs\gym_management-A-kQIkTc\Lib\site-packages\rest_framework\views.py", line 174, in permission_denied
+    raise exceptions.NotAuthenticated()
+rest_framework.exceptions.NotAuthenticated: Authentication credentials were not provided.
+WARNING 2026-03-29 14:11:11,835 log 25924 9408 Unauthorized: /api/v1/
+WARNING 2026-03-29 14:11:11,835 basehttp 25924 9408 "POST /api/v1/ HTTP/1.1" 401 58

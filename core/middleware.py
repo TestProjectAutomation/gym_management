@@ -7,6 +7,7 @@ import json
 from .services import AuditService
 from .models import AuditLog
 from django.utils import timezone 
+from django.conf import settings
 
 
 logger = logging.getLogger(__name__)
